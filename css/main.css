@@ -21,9 +21,8 @@ html {
 
 .hand {
   bottom: 50%;
-  left: 50%;
+  left: calc(50% - 7px);
   position: absolute;
-  transform: translateX(-50%);
   transform-origin: center bottom;
   width: 14px;
 }
